@@ -420,13 +420,8 @@ async function loadData() {
     if(scr && scr.ok) {
       const sd = await scr.json();
       SCORES = sd.tickers || sd;
-    } else if(STATE.last_scores && STATE.last_scores.length) {
-      SCORES = STATE.last_scores;
     } else {
-      const hist = STATE.score_history || {};
-      SCORES = Object.entries(hist)
-        .map(([ticker, entries]) => ({ ticker, score: entries[entries.length - 1].score }))
-        .sort((a, b) => b.score - a.score);
+      SCORES = STATE.last_scores || [];
     }
     renderAll();
   } catch(e) {
@@ -464,7 +459,7 @@ function renderAll() {
   el('kpi-pnl-pct').innerHTML = `<span class="${cc(pnlPct)}">${fpct(pnlPct)}</span>`;
   el('kpi-cash').textContent = f0(cash)+' €';
   el('kpi-cash-pct').textContent = totalVal?fpct(cash/totalVal)+' du port.':'—';
-  el('kpi-beta').innerHTML = `<span class="${beta>1.3?'neg':beta<0.8?'pos':''}">` +f2(beta)+'</span>';
+  el('kpi-beta').innerHTML = `<span class="${beta>1.3?'neg':beta<0.8?'pos':''}">${f2(beta)}</span>`;
   el('kpi-npos').textContent = nPos;
   el('kpi-max-lines').textContent = `/ ${params.max_lines} max`;
   el('kpi-run').textContent = s.last_run?s.last_run.slice(0,10):'—';
@@ -551,6 +546,7 @@ function renderPositions(positions, regime, params) {
     const distTpEur   = (tp-entry)*shares;
     const entryDate   = pos.entry_date||'—';
     const days = (() => { try{const d=new Date(entryDate);return Math.floor((Date.now()-d)/86400000);} catch{return 0;}})();
+    // Estimated P&L at entry (no live price in static dashboard)
     const posEur = pos.position_eur||(entry*shares);
     return `<div class="pos-card">
       <div class="pos-top">
@@ -675,8 +671,8 @@ function renderScores() {
       <td>${f1(bd.trend)}</td><td>${f1(bd.rsi)}</td>
       <td>${f1(bd.macd)}</td><td>${f1(bd.bollinger)}</td>
       <td>${f1(bd.stoch_rsi)}</td><td>${f1(bd.momentum)}</td>
-      <td class="${(s.beta||1)>1.3?'neg':''}">` +f2(s.beta)+'</td>
-      <td class="muted">${s.atr_pct!=null?fpct(s.atr_pct):\'—\'}</td>
+      <td class="${(s.beta||1)>1.3?'neg':''}">${f2(s.beta)}</td>
+      <td class="muted">${s.atr_pct!=null?fpct(s.atr_pct):'—'}</td>
     </tr>`;
   }).join('');
 }
@@ -786,6 +782,7 @@ function runSimulator() {
   const newTotal  = newPosVal + (newCash>0?newCash:0);
   const newWeight = newTotal ? positionEur/newTotal : 0;
 
+  // New portfolio beta
   const existingBetaVal = Object.values(positions).reduce((a,p)=>a+(p.beta||1)*(p.position_eur||0),0);
   const newBetaVal = existingBetaVal + simBeta * positionEur;
   const newBeta = newPosVal ? newBetaVal/newPosVal : simBeta;
@@ -801,7 +798,7 @@ function runSimulator() {
       ['Coût total',`${f0(positionEur)} €`],
       ['Cash restant',`<span class="${newCash<0?'neg':'pos'}">${f0(newCash)} €</span>`],
       ['Poids dans portefeuille',fpct(newWeight)],
-      ['Nouveau beta portefeuille',`<span class="${newBeta>1.4?'neg':''}">` +f2(newBeta)+'</span>'],
+      ['Nouveau beta portefeuille',`<span class="${newBeta>1.4?'neg':''}">${f2(newBeta)}</span>`],
       ['Stop-loss',`${f2(stopLoss)} € (-${stopPct}%)`],
       ['Risque max',`<span class="neg">${feur(-maxRisk)}</span>`],
     ].map(([l,v])=>`<div class="sr-row"><span style="color:var(--muted)">${l}</span><span>${v}</span></div>`).join('')}
