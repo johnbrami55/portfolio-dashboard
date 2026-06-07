@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-06-07T00:00:00",
+  "tickers": [
+    {"ticker":"PUB.PA","score":36.8,"tech_score":36.8,"breakdown":{"trend":7.8,"rsi":4.2,"volume":5.3,"macd":5.0,"bollinger":5.6,"stoch_rsi":3.9,"momentum":5.0},"beta":1.01,"atr_pct":0.0094,"signals_tech":["MACD haussier","Tendance haussière"]},
+    {"ticker":"ML.PA","score":32.6,"tech_score":32.6,"breakdown":{"trend":6.8,"rsi":3.4,"volume":4.9,"macd":3.6,"bollinger":5.6,"stoch_rsi":4.1,"momentum":4.2},"beta":0.91,"atr_pct":0.0205,"signals_tech":["MACD haussier","Tendance haussière"]},
+    {"ticker":"AI.PA","score":32.0,"tech_score":32.0,"breakdown":{"trend":5.5,"rsi":4.3,"volume":5.7,"macd":4.2,"bollinger":4.8,"stoch_rsi":3.3,"momentum":4.2},"beta":0.73,"atr_pct":0.0203,"signals_tech":["MACD haussier","Tendance haussière"]},
+    {"ticker":"CA.PA","score":30.2,"tech_score":30.2,"breakdown":{"trend":5.4,"rsi":3.9,"volume":4.3,"macd":3.5,"bollinger":5.5,"stoch_rsi":3.8,"momentum":3.8},"beta":0.68,"atr_pct":0.0158,"signals_tech":["MACD haussier","Tendance haussière"]},
+    {"ticker":"BNP.PA","score":29.6,"tech_score":29.6,"breakdown":{"trend":5.7,"rsi":3.4,"volume":4.3,"macd":3.3,"bollinger":5.4,"stoch_rsi":3.7,"momentum":3.8},"beta":1.38,"atr_pct":0.0165,"signals_tech":["MACD haussier","Tendance haussière"]},
+    {"ticker":"CS.PA","score":29.0,"tech_score":29.0,"breakdown":{"trend":5.1,"rsi":3.4,"volume":4.0,"macd":3.2,"bollinger":4.6,"stoch_rsi":3.0,"momentum":5.7},"beta":1.22,"atr_pct":0.0108,"signals_tech":["MACD haussier","Tendance haussière"]},
+    {"ticker":"LR.PA","score":28.8,"tech_score":28.8,"breakdown":{"trend":6.0,"rsi":3.5,"volume":4.2,"macd":3.5,"bollinger":5.0,"stoch_rsi":2.9,"momentum":3.7},"beta":0.82,"atr_pct":0.0193,"signals_tech":["MACD haussier","Tendance haussière"]},
+    {"ticker":"AIR.PA","score":26.6,"tech_score":26.6,"breakdown":{"trend":5.9,"rsi":3.3,"volume":4.6,"macd":3.4,"bollinger":4.3,"stoch_rsi":3.6,"momentum":1.5},"beta":1.18,"atr_pct":0.0133,"signals_tech":["MACD haussier","Tendance haussière"]},
+    {"ticker":"BN.PA","score":26.6,"tech_score":26.6,"breakdown":{"trend":4.9,"rsi":3.6,"volume":4.7,"macd":3.0,"bollinger":4.5,"stoch_rsi":3.1,"momentum":2.8},"beta":0.61,"atr_pct":0.0208,"signals_tech":[]},
+    {"ticker":"RMS.PA","score":26.6,"tech_score":26.6,"breakdown":{"trend":5.2,"rsi":2.9,"volume":4.9,"macd":3.2,"bollinger":3.7,"stoch_rsi":2.8,"momentum":3.9},"beta":0.92,"atr_pct":0.0095,"signals_tech":["MACD haussier","Tendance haussière"]},
+    {"ticker":"EN.PA","score":26.4,"tech_score":26.4,"breakdown":{"trend":5.4,"rsi":3.5,"volume":4.4,"macd":3.5,"bollinger":4.3,"stoch_rsi":3.4,"momentum":1.9},"beta":0.72,"atr_pct":0.0086,"signals_tech":["MACD haussier","Tendance haussière"]},
+    {"ticker":"ENGI.PA","score":26.4,"tech_score":26.4,"breakdown":{"trend":4.8,"rsi":3.0,"volume":3.7,"macd":2.9,"bollinger":3.7,"stoch_rsi":3.0,"momentum":5.3},"beta":0.63,"atr_pct":0.0169,"signals_tech":[]},
+    {"ticker":"ACA.PA","score":26.0,"tech_score":26.0,"breakdown":{"trend":5.5,"rsi":3.4,"volume":4.5,"macd":2.9,"bollinger":3.6,"stoch_rsi":2.9,"momentum":3.2},"beta":1.29,"atr_pct":0.0117,"signals_tech":["Tendance haussière"]},
+    {"ticker":"RI.PA","score":26.0,"tech_score":26.0,"breakdown":{"trend":5.4,"rsi":3.4,"volume":4.1,"macd":2.7,"bollinger":4.0,"stoch_rsi":3.6,"momentum":2.8},"beta":0.79,"atr_pct":0.0154,"signals_tech":["Tendance haussière"]},
+    {"ticker":"MC.PA","score":26.0,"tech_score":26.0,"breakdown":{"trend":5.9,"rsi":3.5,"volume":3.6,"macd":3.3,"bollinger":4.4,"stoch_rsi":3.2,"momentum":2.1},"beta":1.03,"atr_pct":0.0117,"signals_tech":["MACD haussier","Tendance haussière"]},
+    {"ticker":"EL.PA","score":25.2,"tech_score":25.2,"breakdown":{"trend":5.0,"rsi":2.8,"volume":3.7,"macd":3.1,"bollinger":3.7,"stoch_rsi":3.1,"momentum":3.8},"beta":0.83,"atr_pct":0.0206,"signals_tech":["MACD haussier"]},
+    {"ticker":"ORA.PA","score":23.4,"tech_score":23.4,"breakdown":{"trend":4.9,"rsi":2.5,"volume":3.7,"macd":2.8,"bollinger":4.3,"stoch_rsi":3.1,"momentum":2.1},"beta":0.41,"atr_pct":0.0117,"signals_tech":[]},
+    {"ticker":"SAF.PA","score":23.0,"tech_score":23.0,"breakdown":{"trend":4.6,"rsi":2.5,"volume":4.1,"macd":3.1,"bollinger":3.5,"stoch_rsi":2.9,"momentum":2.3},"beta":1.11,"atr_pct":0.0165,"signals_tech":["MACD haussier"]},
+    {"ticker":"RNO.PA","score":19.0,"tech_score":19.0,"breakdown":{"trend":3.4,"rsi":2.5,"volume":3.1,"macd":2.5,"bollinger":3.1,"stoch_rsi":1.9,"momentum":2.5},"beta":1.54,"atr_pct":0.0125,"signals_tech":[]}
+  ]
+}
