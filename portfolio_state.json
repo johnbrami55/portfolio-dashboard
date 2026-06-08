@@ -1,36 +1,48 @@
 {
-  "current_regime": "NEUTRAL",
-  "last_run": "2026-06-06T14:22:49.322264",
+  "current_regime": "BEAR",
+  "last_run": "2026-06-08T08:46:31.720643",
   "positions": {},
   "score_history": {
     "ML.PA": [
       {
-        "score": 32.5,
-        "date": "2026-06-06"
+        "score": 32.6,
+        "date": "2026-06-07"
       },
       {
         "score": 32.6,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
+      },
+      {
+        "score": 29.0,
+        "date": "2026-06-08"
       }
     ],
     "CS.PA": [
       {
-        "score": 32.0,
-        "date": "2026-06-06"
+        "score": 29.0,
+        "date": "2026-06-07"
       },
       {
         "score": 29.0,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
+      },
+      {
+        "score": 30.6,
+        "date": "2026-06-08"
       }
     ],
     "LR.PA": [
       {
-        "score": 32.0,
-        "date": "2026-06-06"
+        "score": 25.8,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 25.8,
+        "date": "2026-06-08"
       },
       {
         "score": 28.8,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
       }
     ],
     "PUB.PA": [
@@ -45,92 +57,128 @@
     ],
     "AIR.PA": [
       {
-        "score": 28.5,
-        "date": "2026-06-06"
+        "score": 29.6,
+        "date": "2026-06-07"
       },
       {
-        "score": 26.6,
-        "date": "2026-06-06"
+        "score": 29.6,
+        "date": "2026-06-08"
+      },
+      {
+        "score": 23.0,
+        "date": "2026-06-08"
       }
     ],
     "EN.PA": [
       {
-        "score": 28.5,
-        "date": "2026-06-06"
+        "score": 26.4,
+        "date": "2026-06-07"
       },
       {
         "score": 26.4,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
+      },
+      {
+        "score": 26.4,
+        "date": "2026-06-08"
       }
     ],
     "ENGI.PA": [
       {
-        "score": 28.5,
-        "date": "2026-06-06"
+        "score": 26.4,
+        "date": "2026-06-07"
       },
       {
         "score": 26.4,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
+      },
+      {
+        "score": 26.4,
+        "date": "2026-06-08"
       }
     ],
     "BNP.PA": [
       {
-        "score": 26.0,
-        "date": "2026-06-06"
+        "score": 29.6,
+        "date": "2026-06-07"
       },
       {
         "score": 29.6,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
+      },
+      {
+        "score": 29.6,
+        "date": "2026-06-08"
       }
     ],
     "CA.PA": [
       {
-        "score": 26.0,
-        "date": "2026-06-06"
+        "score": 30.200000000000003,
+        "date": "2026-06-07"
       },
       {
         "score": 30.200000000000003,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
+      },
+      {
+        "score": 31.799999999999997,
+        "date": "2026-06-08"
       }
     ],
     "ACA.PA": [
       {
-        "score": 25.0,
-        "date": "2026-06-06"
+        "score": 26.0,
+        "date": "2026-06-07"
       },
       {
         "score": 26.0,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
+      },
+      {
+        "score": 27.6,
+        "date": "2026-06-08"
       }
     ],
     "BN.PA": [
       {
-        "score": 25.0,
-        "date": "2026-06-06"
+        "score": 26.6,
+        "date": "2026-06-07"
       },
       {
         "score": 26.6,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
+      },
+      {
+        "score": 23.0,
+        "date": "2026-06-08"
       }
     ],
     "EL.PA": [
       {
-        "score": 25.0,
-        "date": "2026-06-06"
+        "score": 25.2,
+        "date": "2026-06-07"
       },
       {
         "score": 25.2,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
+      },
+      {
+        "score": 25.2,
+        "date": "2026-06-08"
       }
     ],
     "RMS.PA": [
       {
-        "score": 25.0,
-        "date": "2026-06-06"
+        "score": 26.6,
+        "date": "2026-06-07"
       },
       {
         "score": 26.6,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
+      },
+      {
+        "score": 23.0,
+        "date": "2026-06-08"
       }
     ],
     "RI.PA": [
@@ -141,26 +189,38 @@
       {
         "score": 26.0,
         "date": "2026-06-06"
-      }
-    ],
-    "MC.PA": [
-      {
-        "score": 23.0,
-        "date": "2026-06-06"
       },
       {
         "score": 26.0,
         "date": "2026-06-06"
       }
     ],
+    "MC.PA": [
+      {
+        "score": 26.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.0,
+        "date": "2026-06-08"
+      },
+      {
+        "score": 26.0,
+        "date": "2026-06-08"
+      }
+    ],
     "ORA.PA": [
       {
-        "score": 23.0,
-        "date": "2026-06-06"
+        "score": 23.4,
+        "date": "2026-06-07"
       },
       {
         "score": 23.4,
-        "date": "2026-06-06"
+        "date": "2026-06-08"
+      },
+      {
+        "score": 21.0,
+        "date": "2026-06-08"
       }
     ],
     "SAF.PA": [
@@ -179,6 +239,720 @@
       {
         "score": 32.0,
         "date": "2026-06-06"
+      },
+      {
+        "score": 32.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 29.6,
+        "date": "2026-06-08"
+      }
+    ],
+    "AGN.AS": [
+      {
+        "score": 36.8,
+        "date": "2026-06-06"
+      }
+    ],
+    "ASRNL.AS": [
+      {
+        "score": 35.0,
+        "date": "2026-06-06"
+      }
+    ],
+    "HEIA.AS": [
+      {
+        "score": 32.4,
+        "date": "2026-06-06"
+      }
+    ],
+    "VPK.AS": [
+      {
+        "score": 31.4,
+        "date": "2026-06-06"
+      }
+    ],
+    "AKZA.AS": [
+      {
+        "score": 30.6,
+        "date": "2026-06-06"
+      }
+    ],
+    "UNA.AS": [
+      {
+        "score": 28.200000000000003,
+        "date": "2026-06-06"
+      }
+    ],
+    "UMG.AS": [
+      {
+        "score": 26.4,
+        "date": "2026-06-06"
+      }
+    ],
+    "AD.AS": [
+      {
+        "score": 22.4,
+        "date": "2026-06-06"
+      }
+    ],
+    "UNH": [
+      {
+        "score": 45.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 45.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 45.2,
+        "date": "2026-06-08"
+      }
+    ],
+    "AAPL": [
+      {
+        "score": 39.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 39.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 39.2,
+        "date": "2026-06-08"
+      }
+    ],
+    "BRK-B": [
+      {
+        "score": 39.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 39.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 39.2,
+        "date": "2026-06-08"
+      }
+    ],
+    "CSCO": [
+      {
+        "score": 39.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 39.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 39.2,
+        "date": "2026-06-08"
+      }
+    ],
+    "MRK": [
+      {
+        "score": 38.599999999999994,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 38.599999999999994,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 38.599999999999994,
+        "date": "2026-06-08"
+      }
+    ],
+    "0005.HK": [
+      {
+        "score": 36.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 36.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 29.0,
+        "date": "2026-06-08"
+      }
+    ],
+    "KO": [
+      {
+        "score": 36.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 36.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 36.0,
+        "date": "2026-06-08"
+      }
+    ],
+    "LIN": [
+      {
+        "score": 34.400000000000006,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 34.400000000000006,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 34.400000000000006,
+        "date": "2026-06-08"
+      }
+    ],
+    "TXN": [
+      {
+        "score": 33.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 33.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 33.6,
+        "date": "2026-06-08"
+      }
+    ],
+    "MSFT": [
+      {
+        "score": 33.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 33.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 33.0,
+        "date": "2026-06-08"
+      }
+    ],
+    "PM": [
+      {
+        "score": 32.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 32.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 32.6,
+        "date": "2026-06-08"
+      }
+    ],
+    "LLY": [
+      {
+        "score": 31.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 31.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 31.4,
+        "date": "2026-06-08"
+      }
+    ],
+    "1299.HK": [
+      {
+        "score": 31.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 31.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 28.200000000000003,
+        "date": "2026-06-08"
+      }
+    ],
+    "META": [
+      {
+        "score": 30.8,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 30.8,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 30.8,
+        "date": "2026-06-08"
+      }
+    ],
+    "JNJ": [
+      {
+        "score": 30.8,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 30.8,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 30.8,
+        "date": "2026-06-08"
+      }
+    ],
+    "HON": [
+      {
+        "score": 30.799999999999997,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 30.799999999999997,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 30.799999999999997,
+        "date": "2026-06-08"
+      }
+    ],
+    "PEP": [
+      {
+        "score": 30.200000000000003,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 30.200000000000003,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 30.200000000000003,
+        "date": "2026-06-08"
+      }
+    ],
+    "UPS": [
+      {
+        "score": 29.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 29.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 29.6,
+        "date": "2026-06-08"
+      }
+    ],
+    "AMZN": [
+      {
+        "score": 29.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 29.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 29.4,
+        "date": "2026-06-08"
+      }
+    ],
+    "GOOGL": [
+      {
+        "score": 28.400000000000002,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 28.400000000000002,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 28.400000000000002,
+        "date": "2026-06-08"
+      }
+    ],
+    "MA": [
+      {
+        "score": 28.200000000000003,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 28.200000000000003,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 28.200000000000003,
+        "date": "2026-06-08"
+      }
+    ],
+    "0700.HK": [
+      {
+        "score": 28.200000000000003,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 28.200000000000003,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 28.200000000000003,
+        "date": "2026-06-08"
+      }
+    ],
+    "V": [
+      {
+        "score": 28.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 28.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 28.2,
+        "date": "2026-06-08"
+      }
+    ],
+    "BAC": [
+      {
+        "score": 28.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 28.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 28.0,
+        "date": "2026-06-08"
+      }
+    ],
+    "JPM": [
+      {
+        "score": 27.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 27.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 27.4,
+        "date": "2026-06-08"
+      }
+    ],
+    "ABBV": [
+      {
+        "score": 26.8,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.8,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.8,
+        "date": "2026-06-08"
+      }
+    ],
+    "PG": [
+      {
+        "score": 26.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.6,
+        "date": "2026-06-08"
+      }
+    ],
+    "MCD": [
+      {
+        "score": 26.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.6,
+        "date": "2026-06-08"
+      }
+    ],
+    "0941.HK": [
+      {
+        "score": 26.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 24.2,
+        "date": "2026-06-08"
+      }
+    ],
+    "9999.HK": [
+      {
+        "score": 26.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 22.8,
+        "date": "2026-06-08"
+      }
+    ],
+    "TMO": [
+      {
+        "score": 26.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.0,
+        "date": "2026-06-08"
+      }
+    ],
+    "RTX": [
+      {
+        "score": 26.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.0,
+        "date": "2026-06-08"
+      }
+    ],
+    "NEE": [
+      {
+        "score": 25.400000000000002,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 25.400000000000002,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 25.400000000000002,
+        "date": "2026-06-08"
+      }
+    ],
+    "0388.HK": [
+      {
+        "score": 25.400000000000002,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 25.400000000000002,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.400000000000002,
+        "date": "2026-06-08"
+      }
+    ],
+    "WMT": [
+      {
+        "score": 24.8,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 24.8,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 24.8,
+        "date": "2026-06-08"
+      }
+    ],
+    "2318.HK": [
+      {
+        "score": 24.8,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 24.8,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 24.8,
+        "date": "2026-06-08"
+      }
+    ],
+    "COST": [
+      {
+        "score": 24.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 24.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 24.2,
+        "date": "2026-06-08"
+      }
+    ],
+    "0027.HK": [
+      {
+        "score": 24.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 24.2,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 21.0,
+        "date": "2026-06-08"
+      }
+    ],
+    "DHR": [
+      {
+        "score": 23.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.6,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.6,
+        "date": "2026-06-08"
+      }
+    ],
+    "XOM": [
+      {
+        "score": 23.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.4,
+        "date": "2026-06-08"
+      }
+    ],
+    "1398.HK": [
+      {
+        "score": 23.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 26.6,
+        "date": "2026-06-08"
+      }
+    ],
+    "0939.HK": [
+      {
+        "score": 23.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.4,
+        "date": "2026-06-08"
+      }
+    ],
+    "0003.HK": [
+      {
+        "score": 23.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 25.8,
+        "date": "2026-06-08"
+      }
+    ],
+    "0016.HK": [
+      {
+        "score": 23.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.4,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 25.8,
+        "date": "2026-06-08"
+      }
+    ],
+    "HD": [
+      {
+        "score": 23.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.0,
+        "date": "2026-06-08"
+      }
+    ],
+    "ABT": [
+      {
+        "score": 22.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 22.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 22.0,
+        "date": "2026-06-08"
+      }
+    ],
+    "0002.HK": [
+      {
+        "score": 21.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 21.0,
+        "date": "2026-06-07"
+      },
+      {
+        "score": 23.4,
+        "date": "2026-06-08"
       }
     ]
   },
@@ -190,5 +964,502 @@
     "vs_cac40": []
   },
   "initial_capital": 1890,
-  "cash_eur": 1890
+  "cash_eur": 1890,
+  "last_scores": [
+    {
+      "ticker": "CA.PA",
+      "score": 31.799999999999997,
+      "tech_score": 16.799999999999997,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 30.4 partial",
+        "Volume 1.0x avg (weak)",
+        "MACD bearish",
+        "3M 7.1% top quartile",
+        "Bollinger near lower/defensive (%B=0.34)",
+        "StochRSI oversold (K=17)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0209,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 2.4000000000000004,
+        "volume": 0.0,
+        "macd": 0.0,
+        "momentum": 6,
+        "bollinger": 4.8,
+        "stoch_rsi": 3.5999999999999996
+      },
+      "last_close": 16.3
+    },
+    {
+      "ticker": "CS.PA",
+      "score": 30.6,
+      "tech_score": 15.600000000000001,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 42.4 ideal",
+        "Volume 0.5x avg (weak)",
+        "MACD bearish",
+        "3M 4.3% above median",
+        "Bollinger near lower/defensive (%B=0.38)",
+        "StochRSI neutral (K=20)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.015,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 6,
+        "volume": 0.0,
+        "macd": 0.0,
+        "momentum": 3.0,
+        "bollinger": 4.8,
+        "stoch_rsi": 1.7999999999999998
+      },
+      "last_close": 39.52
+    },
+    {
+      "ticker": "AI.PA",
+      "score": 29.6,
+      "tech_score": 14.6,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 66.5 overbought penalty",
+        "Volume 1.0x avg (weak)",
+        "MACD above zero",
+        "3M 9.6% top quartile",
+        "Bollinger upper zone (%B=0.88)",
+        "StochRSI overbought (K=100)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0179,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 0.0,
+        "volume": 0.0,
+        "macd": 3.0,
+        "momentum": 6,
+        "bollinger": 5.6,
+        "stoch_rsi": 0.0
+      },
+      "last_close": 183.4
+    },
+    {
+      "ticker": "BNP.PA",
+      "score": 29.6,
+      "tech_score": 14.6,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 72.6 overbought penalty",
+        "Volume 0.7x avg (weak)",
+        "MACD above zero",
+        "3M 8.5% top quartile",
+        "Bollinger upper zone (%B=0.78)",
+        "StochRSI overbought (K=100)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0207,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 0.0,
+        "volume": 0.0,
+        "macd": 3.0,
+        "momentum": 6,
+        "bollinger": 5.6,
+        "stoch_rsi": 0.0
+      },
+      "last_close": 93.65
+    },
+    {
+      "ticker": "ML.PA",
+      "score": 29.0,
+      "tech_score": 14.0,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 57.1 partial",
+        "Volume 0.6x avg (weak)",
+        "MACD above zero",
+        "3M 2.7% above median",
+        "Bollinger upper zone (%B=0.80)",
+        "StochRSI overbought (K=94)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0215,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 2.4000000000000004,
+        "volume": 0.0,
+        "macd": 3.0,
+        "momentum": 3.0,
+        "bollinger": 5.6,
+        "stoch_rsi": 0.0
+      },
+      "last_close": 31.88
+    },
+    {
+      "ticker": "LR.PA",
+      "score": 28.8,
+      "tech_score": 13.8,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 42.1 ideal",
+        "Volume 1.0x avg (weak)",
+        "MACD bearish",
+        "3M 4.7% top quartile",
+        "Bollinger below lower band (%B=0.03)",
+        "StochRSI neutral (K=29)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0267,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 6,
+        "volume": 0.0,
+        "macd": 0.0,
+        "momentum": 6,
+        "bollinger": 0.0,
+        "stoch_rsi": 1.7999999999999998
+      },
+      "last_close": 144.0
+    },
+    {
+      "ticker": "ACA.PA",
+      "score": 27.6,
+      "tech_score": 12.600000000000001,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 43.8 ideal",
+        "Volume 0.9x avg (weak)",
+        "MACD bearish",
+        "3M -1.5% below median",
+        "Bollinger near lower/defensive (%B=0.29)",
+        "StochRSI neutral (K=28)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0209,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 6,
+        "volume": 0.0,
+        "macd": 0.0,
+        "momentum": 0.0,
+        "bollinger": 4.8,
+        "stoch_rsi": 1.7999999999999998
+      },
+      "last_close": 16.53
+    },
+    {
+      "ticker": "EN.PA",
+      "score": 26.4,
+      "tech_score": 11.4,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 50.2 ideal",
+        "Volume 0.7x avg (weak)",
+        "MACD bearish",
+        "3M 2.6% above median",
+        "Bollinger mid (%B=0.49)",
+        "StochRSI overbought (K=85)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0173,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 6,
+        "volume": 0.0,
+        "macd": 0.0,
+        "momentum": 3.0,
+        "bollinger": 2.4,
+        "stoch_rsi": 0.0
+      },
+      "last_close": 50.16
+    },
+    {
+      "ticker": "ENGI.PA",
+      "score": 26.4,
+      "tech_score": 11.4,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 50.0 ideal",
+        "Volume 1.0x avg (weak)",
+        "MACD bearish",
+        "3M 2.2% above median",
+        "Bollinger mid (%B=0.46)",
+        "StochRSI overbought (K=99)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0152,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 6,
+        "volume": 0.0,
+        "macd": 0.0,
+        "momentum": 3.0,
+        "bollinger": 2.4,
+        "stoch_rsi": 0.0
+      },
+      "last_close": 26.94
+    },
+    {
+      "ticker": "MC.PA",
+      "score": 26.0,
+      "tech_score": 11.0,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 61.5 partial",
+        "Volume 0.9x avg (weak)",
+        "MACD above zero",
+        "3M -4.6% below median",
+        "Bollinger upper zone (%B=0.78)",
+        "StochRSI overbought (K=82)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0301,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 2.4000000000000004,
+        "volume": 0.0,
+        "macd": 3.0,
+        "momentum": 0.0,
+        "bollinger": 5.6,
+        "stoch_rsi": 0.0
+      },
+      "last_close": 479.05
+    },
+    {
+      "ticker": "EL.PA",
+      "score": 25.2,
+      "tech_score": 10.2,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 49.7 ideal",
+        "Volume 1.0x avg (weak)",
+        "MACD bearish",
+        "3M -18.2% below median",
+        "Bollinger mid (%B=0.59)",
+        "StochRSI neutral (K=32)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0259,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 6,
+        "volume": 0.0,
+        "macd": 0.0,
+        "momentum": 0.0,
+        "bollinger": 2.4,
+        "stoch_rsi": 1.7999999999999998
+      },
+      "last_close": 174.05
+    },
+    {
+      "ticker": "AIR.PA",
+      "score": 23.0,
+      "tech_score": 8.0,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 58.5 partial",
+        "Volume 0.9x avg (weak)",
+        "MACD bearish",
+        "3M 2.0% below median",
+        "Bollinger upper zone (%B=0.92)",
+        "StochRSI overbought (K=98)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0325,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 2.4000000000000004,
+        "volume": 0.0,
+        "macd": 0.0,
+        "momentum": 0.0,
+        "bollinger": 5.6,
+        "stoch_rsi": 0.0
+      },
+      "last_close": 178.96
+    },
+    {
+      "ticker": "BN.PA",
+      "score": 23.0,
+      "tech_score": 8.0,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 58.1 partial",
+        "Volume 0.7x avg (weak)",
+        "MACD bearish",
+        "3M -8.2% below median",
+        "Bollinger upper zone (%B=0.94)",
+        "StochRSI overbought (K=91)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0189,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 2.4000000000000004,
+        "volume": 0.0,
+        "macd": 0.0,
+        "momentum": 0.0,
+        "bollinger": 5.6,
+        "stoch_rsi": 0.0
+      },
+      "last_close": 64.42
+    },
+    {
+      "ticker": "RMS.PA",
+      "score": 23.0,
+      "tech_score": 8.0,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 56.1 partial",
+        "Volume 1.0x avg (weak)",
+        "MACD bearish",
+        "3M -15.0% below median",
+        "Bollinger upper zone (%B=0.68)",
+        "StochRSI overbought (K=89)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0343,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 2.4000000000000004,
+        "volume": 0.0,
+        "macd": 0.0,
+        "momentum": 0.0,
+        "bollinger": 5.6,
+        "stoch_rsi": 0.0
+      },
+      "last_close": 1619.0
+    },
+    {
+      "ticker": "ORA.PA",
+      "score": 21.0,
+      "tech_score": 6.0,
+      "fund_score": 15.0,
+      "regime_bonus": 0.0,
+      "bonus_reason": "",
+      "signals_tech": [
+        "Insufficient history",
+        "RSI 27.2 partial",
+        "Volume 0.9x avg (weak)",
+        "MACD bearish",
+        "3M -0.2% below median",
+        "Bollinger below lower band (%B=0.00)",
+        "StochRSI oversold (K=0)"
+      ],
+      "signals_fund": [
+        "Fundamental: Alpha Vantage free tier"
+      ],
+      "beta": 1.0,
+      "atr_pct": 0.0165,
+      "error": null,
+      "breakdown": {
+        "trend": 0.0,
+        "rsi": 2.4000000000000004,
+        "volume": 0.0,
+        "macd": 0.0,
+        "momentum": 0.0,
+        "bollinger": 0.0,
+        "stoch_rsi": 3.5999999999999996
+      },
+      "last_close": 17.435
+    }
+  ]
 }
