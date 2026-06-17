@@ -432,7 +432,7 @@ async function loadData() {
 
 // ─── RENDER ALL ──────────────────────────────────────────────────────────────
 function renderAll() {
-  const s = STATE;
+  const s        = STATE;
   const regime   = s.current_regime || 'NEUTRAL';
   const initial  = s.initial_capital || 1890;
   const cash     = s.cash_eur || 0;
@@ -440,7 +440,11 @@ function renderAll() {
   const perf     = s.performance || {};
   const pnlEur   = perf.total_pnl_eur || 0;
   const pnlPct   = perf.total_pnl_pct || 0;
-  const posVal   = Object.values(positions).reduce((a,p)=>a+(p.position_eur||0),0);
+  const posVal   = Object.values(positions).reduce((a,p) => {
+    const price  = p.current_price || p.entry_price || 0;
+    const shares = p.nb_shares || 0;
+    return a + price * shares;
+  }, 0);
   const totalVal = posVal + cash;
   const beta     = portfolioBeta(positions);
   const params   = REGIME_PARAMS[regime] || REGIME_PARAMS.NEUTRAL;
