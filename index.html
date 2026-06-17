@@ -543,20 +543,23 @@ function renderPositions(positions, regime, params) {
     const sym       = currency === 'USD' ? '$' : '€';
     const entry_nat = pos.entry_price || 0;
     const entry_eur = currency === 'USD' ? entry_nat / eur_usd : entry_nat;
-    const current   = pos.current_price || entry_eur;
-    const stop      = pos.stop_loss ? (currency === 'USD' ? pos.stop_loss / eur_usd : pos.stop_loss) : entry_eur*(1+params.stop_loss_pct);
-    const tp        = pos.take_profit ? (currency === 'USD' ? pos.take_profit / eur_usd : pos.take_profit) : entry_eur*(1+params.take_profit_pct);
+    const curr_nat  = pos.current_price || entry_nat;
+    const curr_eur  = pos.current_price_eur || entry_eur;
+    const stop_nat  = pos.stop_loss || entry_nat * (1 + params.stop_loss_pct);
+    const tp_nat    = pos.take_profit || entry_nat * (1 + params.take_profit_pct);
+    const stop_eur  = currency === 'USD' ? stop_nat / eur_usd : stop_nat;
+    const tp_eur    = currency === 'USD' ? tp_nat / eur_usd : tp_nat;
     const shares    = pos.nb_shares || 0;
-    const pnl_eur   = (current - entry_eur) * shares;
-    const pnl_pct   = entry_eur ? (current - entry_eur) / entry_eur * 100 : 0;
+    const pnl_eur   = (curr_eur - entry_eur) * shares;
+    const pnl_pct   = entry_nat ? (curr_nat - entry_nat) / entry_nat * 100 : 0;
     const pnl_col   = pnl_eur >= 0 ? 'var(--green)' : 'var(--red)';
-    const range     = tp - stop;
-    const pct       = range>0 ? Math.max(0,Math.min(100,(current-stop)/range*100)) : 50;
-    const distStopPct = entry_eur?(entry_eur-stop)/entry_eur:0;
-    const distTpPct   = entry_eur?(tp-entry_eur)/entry_eur:0;
-    const distStopEur = (entry_eur-stop)*shares;
-    const distTpEur   = (tp-entry_eur)*shares;
-    const entryDate   = pos.entry_date||'—';
+    const range     = tp_eur - stop_eur;
+    const pct       = range > 0 ? Math.max(0, Math.min(100, (curr_eur - stop_eur) / range * 100)) : 50;
+    const distStopPct = entry_nat ? (curr_nat - stop_nat) / curr_nat : 0;
+    const distTpPct   = entry_nat ? (tp_nat - curr_nat) / curr_nat : 0;
+    const distStopEur = (curr_eur - stop_eur) * shares;
+    const distTpEur   = (tp_eur - curr_eur) * shares;
+    const entryDate   = pos.entry_date || '—';
     const days = (() => { try{const d=new Date(entryDate);return Math.floor((Date.now()-d)/86400000);} catch{return 0;}})();
     return `<div class="pos-card">
       <div class="pos-top">
@@ -566,7 +569,7 @@ function renderPositions(positions, regime, params) {
         </div>
         <div class="pos-pnl">
           <div class="big" style="color:${pnl_col}">${pnl_pct>=0?'+':''}${f1(pnl_pct)}% (${pnl_eur>=0?'+':''}${f0(pnl_eur)}€)</div>
-          <div style="font-size:11px;color:var(--muted)">${shares} titres · ${f2(entry_nat)}${sym} → ${f2(current * (currency==='USD'?eur_usd:1))}${sym} · ${f2(current)}€</div>
+          <div style="font-size:11px;color:var(--muted)">${shares} titres · ${f2(entry_nat)}${sym} → ${f2(curr_nat)}${sym} · ${f2(curr_eur)}€</div>
         </div>
       </div>
       <div class="pos-meta">
