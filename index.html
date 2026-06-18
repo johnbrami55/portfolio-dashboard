@@ -434,7 +434,7 @@ function renderAll() {
     : '<span style="color:var(--muted)">Aucune alerte</span>';
 
   renderTop5();
-  renderPositions(positions, regime, params);
+  renderPositions(positions, regime, params, STATE);
   el('pos-count').textContent = `${nPos} position${nPos>1?'s':''}`;
   updateSensi(el('market-slider').value);
   renderVaR(beta, totalVal, cash);
@@ -462,11 +462,16 @@ function renderTop5() {
   }).join('');
 }
 
-function renderPositions(positions, regime, params) {
+function renderPositions(positions, regime, params, state) {
   const container = el('positions-container');
   const entries = Object.entries(positions);
   if(!entries.length){container.innerHTML='<div class="empty-state">Aucune position ouverte</div>';return;}
-  container.innerHTML = entries.map(([ticker,pos])=>{
+  
+  const coreTickers = Object.keys(state.core || {});
+  const coreEntries = entries.filter(([t]) => coreTickers.includes(t));
+  const satEntries  = entries.filter(([t]) => !coreTickers.includes(t));
+
+  const renderCard = ([ticker, pos]) => {
     const currency  = pos.currency || 'EUR';
     const eur_usd   = pos.eur_usd || 1.12;
     const sym       = currency === 'USD' ? '$' : '€';
@@ -514,9 +519,22 @@ function renderPositions(positions, regime, params) {
         </div>
       </div>
     </div>`;
-  }).join('');
-}
+  };
 
+  let html = '';
+
+  if(coreEntries.length) {
+    html += `<div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px;margin-top:4px">🏦 Core — Momentum long terme (${coreEntries.length})</div>`;
+    html += coreEntries.map(renderCard).join('');
+  }
+
+  if(satEntries.length) {
+    html += `<div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px;margin-top:16px">🛰 Satellite — Opportunités court terme (${satEntries.length})</div>`;
+    html += satEntries.map(renderCard).join('');
+  }
+
+  container.innerHTML = html;
+}
 function updateSensi(val) {
   val = parseFloat(val)||0;
   el('slider-val').textContent = (val>=0?'+':'')+val+'%';
